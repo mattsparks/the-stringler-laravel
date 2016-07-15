@@ -1,0 +1,12 @@
+{
+    "name": "thestringler/manipulator-laravel",
+    "description": "A Laravel package for The Stringler",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matt Sparks",
+            "email": "matt@sparkscoding.com"
+        }
+    ],
+    "require": {}
+}
