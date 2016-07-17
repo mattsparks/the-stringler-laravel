@@ -8,5 +8,7 @@
             "email": "matt@sparkscoding.com"
         }
     ],
-    "require": {}
+    "require": {
+        "thestringler/manipulator": "^0.5.0"
+    }
 }
