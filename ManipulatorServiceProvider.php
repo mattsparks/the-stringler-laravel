@@ -1,4 +1,4 @@
-<?php namespace TheStringler\Manipulator;
+<?php namespace TheStringlerLaravel\Manipulator;
 
 use Illuminate\Support\ServiceProvider;
 use TheStringler\Manipulator\Manipulator;
