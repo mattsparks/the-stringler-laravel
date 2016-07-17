@@ -19,3 +19,28 @@ Then add the facade to the aliases array, also in `config.php`:
 ```php
 'Manipulator' => TheStringler\Manipulator\ManipulatorFacade::class,
 ```
+
+Example Controller Usage:
+```php
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use Manipulator;
+
+use App\Http\Requests;
+
+class ExampleController extends Controller
+{
+    public function index()
+    {
+    	$string = Manipulator::make('Laravel 5')->toUpper();
+
+    	return view('welcome', [
+    		'title' => $string
+		]);
+    }
+}
+
+```
