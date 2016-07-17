@@ -11,13 +11,13 @@ composer require thestringler-laravel/manipulator
 After composer has done its thing, add the package service provider to the array in `config.app`:
 
 ```php
-TheStringler\Manipulator\Manipulator::class
+TheStringlerLaravel\Manipulator\Manipulator::class
 ```
 
 Then add the facade to the aliases array, also in `config.php`:
 
 ```php
-'Manipulator' => TheStringler\Manipulator\ManipulatorFacade::class,
+'Manipulator' => TheStringlerLaravel\Manipulator\ManipulatorFacade::class,
 ```
 
 Example Controller Usage:
