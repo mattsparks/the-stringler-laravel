@@ -4,7 +4,9 @@ A Laravel package for [The Stringler](https://github.com/spatie/string), a strin
 
 ## Install
 Compsoser:
-`composer require thestringler/manipulator-laravel`
+```
+composer require thestringler/manipulator-laravel
+```
 
 After composer has done its thing, add the package service provider to the array in `config.app`:
 
