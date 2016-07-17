@@ -44,3 +44,8 @@ class ExampleController extends Controller
 }
 
 ```
+
+Helper function:
+```php
+$string = manipulate('hello')->toUpper();
+```

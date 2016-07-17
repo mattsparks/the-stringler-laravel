@@ -9,6 +9,7 @@
         }
     ],
     "autoload": {
+        "files": ["src/stringler_helper.php"],
         "psr-4": {
             "TheStringlerLaravel\\Manipulator\\": "src"
         }
