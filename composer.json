@@ -8,6 +8,11 @@
             "email": "matt@sparkscoding.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "TheStringlerLaravel\\Manipulator\\": "src"
+        }
+    },
     "require": {
         "thestringler/manipulator": "^0.5.0"
     }
