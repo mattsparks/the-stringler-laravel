@@ -8,13 +8,13 @@ Compsoser:
 composer require thestringler-laravel/manipulator
 ```
 
-After composer has done its thing, add the package service provider to the array in `config.app`:
+After composer has done its thing, add the package service provider to the array in `/config/app.php`:
 
 ```php
-TheStringlerLaravel\Manipulator\Manipulator::class
+TheStringlerLaravel\Manipulator\ManipulatorServiceProvider::class
 ```
 
-Then add the facade to the aliases array, also in `config.php`:
+Then add the facade to the aliases array, also in `config/app.php`:
 
 ```php
 'Manipulator' => TheStringlerLaravel\Manipulator\ManipulatorFacade::class,
